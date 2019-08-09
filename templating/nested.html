@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nest Yo Eggs, Son</title>
+</head>
+<body>
+<ul>
+    {{range .Wisdom}}
+        <li>{{.Name}} says: {{.Motto}}</li>
+    {{end}}
+</ul>
+<ul>
+    {{range .Transportation}}
+        <li>{{.Manufacturer}}: {{.Model}} {{.Doors}}</li>
+
+    {{end}}
+</ul>
+</body>
+</html>
